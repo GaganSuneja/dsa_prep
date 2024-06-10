@@ -43,7 +43,3 @@ var lengthOfLongestSubstring = function(s) {
 };
 
 console.log(lengthOfLongestSubstring('qrsvbspk'));
-// p
-// pw
-// global_max = 2
-// 

@@ -33,7 +33,7 @@ var maxArea = function(height) {
             start++;
             end--;
         }
-
+        
     }           
 
     return maxArea;
