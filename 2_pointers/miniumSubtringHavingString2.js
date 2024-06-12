@@ -74,43 +74,21 @@
 //     }
 //     return true;
 // }
-    
-
 
 // minSubString('AA', 'AVVDDSS')
 
+// HTML     
+// HEAD                BODY
+// DIV H1  H4            H2     H3      // N
+// HTML
+// DIv, H1, H4, H2, H3, null
+// root =  {
+// tag: "HTML",
+// child: Node[]
+// }
 
+// Target = Node {
+// tag: "H1"
+// }
 
-HTML     
-HEAD                BODY
-DIV H1  H4            H2     H3      // N
-
-
-
-
-    HTML
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
- , , , DIv, H1, H4, H2, H3, null
-root =  {
-tag: "HTML",
-child: Node[]
-}
-
-Target = Node {
-tag: "H1"
-}
-
-
+    

@@ -43,3 +43,21 @@ var twoSum = function(numbers, target) {
 };
 
 
+
+
+
+// 2 sum practice again
+var ts = function(nums, target) {
+    let start = 0;
+    let end = nums.length - 1;
+    while(start < end) {
+        let sum = nums[start] + nums[end];
+        if( sum > target) {
+            end-=1;
+        } else if(sum < target) {
+            start+=1
+        } else {
+            return [i+1,j+1];
+        }
+    }
+}
